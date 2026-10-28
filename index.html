@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff4f8" />
+    <meta name="description" content="Zharia's 1st Birthday video invitation" />
+    <title>Zharia's 1st Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <video
+        id="birthday-video"
+        autoplay
+        muted
+        playsinline
+        controls
+        preload="metadata"
+        aria-label="Zharia's complete first birthday invitation video"
+      >
+        <source src="assets/Zharia's 1st Birthday.mp4" type="video/mp4" />
+        Your browser does not support MP4 video. Please open this website in a
+        modern browser.
+      </video>
+      <button
+        id="sound-toggle"
+        class="sound-toggle"
+        type="button"
+        aria-pressed="false"
+      >
+        Turn sound on
+      </button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
